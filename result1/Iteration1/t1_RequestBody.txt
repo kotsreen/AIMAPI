@@ -1,0 +1,7 @@
+"{\r\n"
+"  "UserId": "DX_31925613",\r\n"
+"  "Password": "password",\r\n"
+"  "DateOfBirth": "",\r\n"
+"  "loyaltyID": "",\r\n"
+"  "SessionId":"123456789"\r\n"
+"}"

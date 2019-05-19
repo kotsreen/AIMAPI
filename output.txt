@@ -1,0 +1,99 @@
+Virtual User Script started at: 5/19/2019 1:11:20 AM
+Starting action vuser_init.
+Web Services replay version 12.55.0 for Windows 10; Toolkit: "NotDefined"; build 911
+Run-Time Settings file: "C:\Users\kotsreen\Documents\VuGen\Scripts\WebServices2\\default.cfg"
+Vuser directory: "C:\Users\kotsreen\Documents\VuGen\Scripts\WebServices2"
+Vuser output directory: "C:\Users\kotsreen\Documents\VuGen\Scripts\WebServices2\"
+LOCAL start date/time : 2019-05-19 01:11:20
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_add_auto_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
+Action.c(4): "Content-Type: application/json" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(4): web_add_auto_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(6): web_add_auto_header("grant_type") started  	[MsgId: MMSG-26355]
+Action.c(6): An unrecognized header ("grant_type") is being added  	[MsgId: MMSG-26595]
+Action.c(6): "grant_type: client_credentials" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(6): web_add_auto_header("grant_type") was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(8): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
+Action.c(8): "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkhCeGw5bUFlNmd4YXZDa2NvT1UyVEhzRE5hMCIsImtpZCI6IkhCeGw5bUFlNmd4YXZDa2NvT1UyVEhzRE5hMCJ9.eyJhdWQiOiIwMDAwMDAwMi0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC81MzViMmQ4Ny02NjRmLTQxNWEtYjdmYS1mZDNmMTA4NmQ0NTAvIiwiaWF0IjoxNTU4MjQxMjQwLCJuYmYiOjE1NTgyNDEyNDAsImV4cCI6MTU1ODI0NTE0MCwiYWlvIjoiNDJaZ1lLajY3dHZnSXNzVzlHalNsVk5HcW1vVEFBPT0iLCJhcHBpZCI6IjlhYmFkZDY5LTExY2MtNDBjMy1hZDIyLTNiOGYzMjkyYTlhZCIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzUzNWIyZDg3LTY2NGYtNDE1YS1iN2ZhLWZkM2YxMDg2ZDQ1MC8iLCJvaWQiOiI2YmY5OWViNi0xM2Y1LTRlMWMtODBlOC1lMTFmNTdjMGE1NjYiLCJzdWIiOiI2YmY5OWViNi0xM2Y1LTRlMWMtODBlOC1lMTFmNTdjMGE1NjYiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiTkEiLCJ0aWQiOiI1MzViMmQ4Ny02NjRmLTQxNWEtYjdmYS1mZDNmMTA4NmQ0NTAiLCJ1dGkiOiJ6RFBCbThtM1hFVzhBUGdXQU50bkFBIiwidmVyIjoiMS4wIn0.vUR-4gNfNjpghlzGTSWCG8zJmIsQr4iXjswvcKuH47zlziGdrhbfSB8viLdNXekoTM7mVg3A-Rz4e5XL7rkMqFzgsfgHxZ7Ux2N78MWjafZjGGQ9iAVt3hOjC-QuYhsymNWY56WPK0RH0OuIqzTVk4kG6gCYLhhUR6CVdq3qxF8AQw-LAf8pmETluqvxQcKcTwIPAVHFXJZMrMA3SS1aHFA1qpFQ5I3-3FT5fwiy4dFfFmLVbEE1cINQPZCOVBAawN0ppFZsAgDdF8zqYn9xAbFVBRVvexPYEo_1UMNQw59OGtZdOMOHLajC1pdbuV51y8SPe65AjH1KUJYEP83eaQ" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(8): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(11): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(11): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(14): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(14): Warning: The string '
+  "UserId": "DX_31925613",
+  "Password": "password",
+  "DateOfBirth": "",
+  "loyaltyID": "",
+  "SessionId":"123456789"
+' with parameter delimiters is not a parameter.
+Action.c(14): t=3734ms: Connecting [0] to host 23.96.123.0:443  	[MsgId: MMSG-26000]
+Action.c(14): t=3787ms: Connected socket [0] from 10.150.70.23:31272 to 23.96.123.0:443 in 52 ms  	[MsgId: MMSG-26000]
+Action.c(14): t=4914ms: Trying to set SNI with servername agdcqaapimgmt.azure-api.net  	[MsgId: MMSG-26000]
+Action.c(14): t=4914ms: Setting SNI was succesfull  	[MsgId: MMSG-26000]
+Action.c(14): t=5092ms: 1561-byte request headers for "https://agdcqaapimgmt.azure-api.net/atcd/v2/login/A18/BW/27" (RelFrameId=1, Internal ID=1)
+Action.c(14):     POST /atcd/v2/login/A18/BW/27 HTTP/1.1\r\n
+Action.c(14):     Content-Type: application/json\r\n
+Action.c(14):     Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkhCeGw5bUFlNmd4YXZDa2Nv
+Action.c(14):     T1UyVEhzRE5hMCIsImtpZCI6IkhCeGw5bUFlNmd4YXZDa2NvT1UyVEhzRE5hMCJ9.eyJhdWQiOiIwMDAwMDAwMi0wM
+Action.c(14):     DAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC81MzViMmQ4Ny0
+Action.c(14):     2NjRmLTQxNWEtYjdmYS1mZDNmMTA4NmQ0NTAvIiwiaWF0IjoxNTU4MjQxMjQwLCJuYmYiOjE1NTgyNDEyNDAsImV4c
+Action.c(14):     CI6MTU1ODI0NTE0MCwiYWlvIjoiNDJaZ1lLajY3dHZnSXNzVzlHalNsVk5HcW1vVEFBPT0iLCJhcHBpZCI6IjlhYmF
+Action.c(14):     kZDY5LTExY2MtNDBjMy1hZDIyLTNiOGYzMjkyYTlhZCIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzL
+Action.c(14):     ndpbmRvd3MubmV0LzUzNWIyZDg3LTY2NGYtNDE1YS1iN2ZhLWZkM2YxMDg2ZDQ1MC8iLCJvaWQiOiI2YmY5OWViNi0
+Action.c(14):     xM2Y1LTRlMWMtODBlOC1lMTFmNTdjMGE1NjYiLCJzdWIiOiI2YmY5OWViNi0xM2Y1LTRlMWMtODBlOC1lMTFmNTdjM
+Action.c(14):     GE1NjYiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiTkEiLCJ0aWQiOiI1MzViMmQ4Ny02NjRmLTQxNWEtYjdmYS1mZDN
+Action.c(14):     mMTA4NmQ0NTAiLCJ1dGkiOiJ6RFBCbThtM1hFVzhBUGdXQU50bkFBIiwidmVyIjoiMS4wIn0.vUR-4gNfNjpghlzGT
+Action.c(14):     SWCG8zJmIsQr4iXjswvcKuH47zlziGdrhbfSB8viLdNXekoTM7mVg3A-Rz4e5XL7rkMqFzgsfgHxZ7Ux2N78MWjafZ
+Action.c(14):     jGGQ9iAVt3hOjC-QuYhsymNWY56WPK0RH0OuIqzTVk4kG6gCYLhhUR6CVdq3qxF8AQw-LAf8pmETluqvxQcKcTwIPA
+Action.c(14):     VHFXJZMrMA3SS1aHFA1qpFQ5I3-3FT5fwiy4dFfFmLVbEE1cINQPZCOVBAawN0ppFZsAgDdF8zqYn9xAbFVBRVvexP
+Action.c(14):     YEo_1UMNQw59OGtZdOMOHLajC1pdbuV51y8SPe65AjH1KUJYEP83eaQ\r\n
+Action.c(14):     Cache-Control: no-cache\r\n
+Action.c(14):     grant_type: client_credentials\r\n
+Action.c(14):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(14):     Accept-Encoding: gzip, deflate\r\n
+Action.c(14):     Accept: */*\r\n
+Action.c(14):     Connection: Keep-Alive\r\n
+Action.c(14):     Host: agdcqaapimgmt.azure-api.net\r\n
+Action.c(14):     Content-Length: 128\r\n
+Action.c(14):     \r\n
+Action.c(14): t=5102ms: 128-byte request body for "https://agdcqaapimgmt.azure-api.net/atcd/v2/login/A18/BW/27" (RelFrameId=1, Internal ID=1)
+Action.c(14):     {\r\n
+Action.c(14):       "UserId": "DX_31925613",\r\n
+Action.c(14):       "Password": "password",\r\n
+Action.c(14):       "DateOfBirth": "",\r\n
+Action.c(14):       "loyaltyID": "",\r\n
+Action.c(14):       "SessionId":"123456789"\r\n
+Action.c(14):     }
+Action.c(14): t=5837ms: 352-byte response headers for "https://agdcqaapimgmt.azure-api.net/atcd/v2/login/A18/BW/27" (RelFrameId=1, Internal ID=1)
+Action.c(14):     HTTP/1.1 200 OK\r\n
+Action.c(14):     Cache-Control: no-cache\r\n
+Action.c(14):     Pragma: no-cache\r\n
+Action.c(14):     Content-Length: 190\r\n
+Action.c(14):     Content-Type: application/json;charset=utf-8\r\n
+Action.c(14):     Content-Encoding: gzip\r\n
+Action.c(14):     Expires: -1\r\n
+Action.c(14):     x-request-id: 8b0c2472-5be3-42e0-ba10-616cf9c908c5\r\n
+Action.c(14):     X-AspNet-Version: 4.0.30319\r\n
+Action.c(14):     Request-Context: appId=cid-v1:4ec1506f-2467-440e-95c2-c15728eca9b2\r\n
+Action.c(14):     Date: Sun, 19 May 2019 05:11:23 GMT\r\n
+Action.c(14):     \r\n
+Action.c(14): t=5850ms: 190-byte ENCODED response body received for "https://agdcqaapimgmt.azure-api.net/atcd/v2/login/A18/BW/27" (RelFrameId=1, Internal ID=1)
+Action.c(14): t=5853ms: 246-byte DECODED response body for "https://agdcqaapimgmt.azure-api.net/atcd/v2/login/A18/BW/27" (RelFrameId=1, Internal ID=1)
+Action.c(14):     {"RequestId":16992530,"StatusData":[{"StatusCode":"0000","StatusMessage":"SUCCESS","Consum
+Action.c(14):     erMessage":""}],"WinningCCN":31925613,"PinExists":"Y","TempPasswordFlag":"N","SecurityQues
+Action.c(14):     tion":[{"QuestionId":1,"ActiveFlag":"Y"}],"CaseSensitiveFlag":"N"}
+Action.c(14): t=5866ms: Request done "https://agdcqaapimgmt.azure-api.net/atcd/v2/login/A18/BW/27"  	[MsgId: MMSG-26000]
+Action.c(14): web_custom_request("web_custom_request") was successful, 190 body bytes, 352 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=6353ms: Closed connection [0] to agdcqaapimgmt.azure-api.net:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
